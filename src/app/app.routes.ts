@@ -4,6 +4,7 @@ import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { LoginComponent } from './login/login.component';
 import { CartComponent } from './cart/cart.component';
+import { SellerHomeComponent } from './seller-home/seller-home.component';
 
 export const routes: Routes = [
     {
@@ -21,6 +22,9 @@ export const routes: Routes = [
     },{
         path:'cart',
         component:CartComponent
+    },{
+        path:'seller-home',
+        component: SellerHomeComponent
     },
     {
         path:'**',

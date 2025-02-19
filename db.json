@@ -1,5 +1,18 @@
 {
   "seller": [
-  
+    {
+      "id": "00db",
+      "name": "bdshjkfsdf",
+      "email": "dsfsdfds",
+      "password": "dsfsdfds",
+      "confirmPassword": "dsfsdfsdf"
+    },
+    {
+      "id": "1a26",
+      "name": "jksdbkjsd",
+      "email": "fskjdhf",
+      "password": "kdshfkjsd",
+      "confirmPassword": "fdkjshfs"
+    }
   ]
 }

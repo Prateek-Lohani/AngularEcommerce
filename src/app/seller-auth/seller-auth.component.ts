@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {  FormsModule } from '@angular/forms';
 import { SellerService } from '../services/seller.service';
-import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-seller-auth',
@@ -14,11 +14,15 @@ import { HttpClient } from '@angular/common/http';
 export class SellerAuthComponent {
 
 
-  constructor(private seller:SellerService){}
+  constructor(private seller:SellerService,private router:Router){}
 
   signUp(data:object,form:any):void{
     console.log(data)
-    this.seller.userSignUp(data).subscribe((result)=>console.log(result));
+    this.seller.userSignUp(data).subscribe((result)=>{
+      if(result){
+          this.router.navigate(['seller-home'])
+      }
+    });
     form.reset();
   }
 
