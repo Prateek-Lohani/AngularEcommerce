@@ -5,6 +5,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { LoginComponent } from './login/login.component';
 import { CartComponent } from './cart/cart.component';
 import { SellerHomeComponent } from './seller-home/seller-home.component';
+import { authGuard } from './auth.guard';
 
 export const routes: Routes = [
     {
@@ -24,6 +25,7 @@ export const routes: Routes = [
         component:CartComponent
     },{
         path:'seller-home',
+        canActivate:[authGuard],
         component: SellerHomeComponent
     },
     {

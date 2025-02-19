@@ -1,18 +1,39 @@
 {
   "seller": [
     {
-      "id": "00db",
-      "name": "bdshjkfsdf",
-      "email": "dsfsdfds",
-      "password": "dsfsdfds",
-      "confirmPassword": "dsfsdfsdf"
+      "id": "b8b1",
+      "name": "",
+      "email": "",
+      "password": "",
+      "confirmPassword": ""
     },
     {
-      "id": "1a26",
-      "name": "jksdbkjsd",
-      "email": "fskjdhf",
-      "password": "kdshfkjsd",
-      "confirmPassword": "fdkjshfs"
+      "id": "ce16",
+      "name": null,
+      "email": null,
+      "password": null,
+      "confirmPassword": null
+    },
+    {
+      "id": "4387",
+      "name": "jhasdgjhasd",
+      "email": "hsdajh",
+      "password": "shdhga",
+      "confirmPassword": "asdasda"
+    },
+    {
+      "id": "447b",
+      "name": "sadasd",
+      "email": "dsadasd",
+      "password": "dsadasd",
+      "confirmPassword": "dasdasdas"
+    },
+    {
+      "id": "af0b",
+      "name": "",
+      "email": "",
+      "password": "",
+      "confirmPassword": ""
     }
   ]
 }
