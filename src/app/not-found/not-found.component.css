@@ -1,0 +1,21 @@
+.not-found-container{
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    background-color: black;
+   justify-content: center;
+    align-items: center;
+}
+
+.err-heading{
+    font-size: 50px;
+    font-weight: 900;
+    padding: 10px 5px;
+    background-color: rgba(255, 128, 128, 0.819);
+}
+
+.err-msg{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}

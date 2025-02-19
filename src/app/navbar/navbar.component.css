@@ -1,0 +1,52 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 20px;
+    align-items: center;
+    background-color: #2C3930;
+}
+
+nav img{
+    width: 35px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap:20px;
+    align-items: center;
+
+    li a{
+        color:white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+nav input{
+    width: 500px;
+    padding:0 10px;
+    background-color: #DCD7C9;
+}
+
+nav input,button{
+    height: 40px;
+}
+
+input::placeholder{
+    color:black;
+    font-weight: bold;
+}
+
+nav button{
+    padding:10px;
+    background-color: #A27B5C;
+    color: white;
+    font-weight:bold;
+    border: none;
+    
+}
+
+.active-link{
+    color:#A27B5C !important;
+}

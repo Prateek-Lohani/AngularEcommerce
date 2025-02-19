@@ -1,0 +1,24 @@
+<div class="seller-wrapper">
+<section class="signupWrapper">
+    <h1>Sign Up Now!</h1>
+    <form #signupForm="ngForm" (ngSubmit)="signUp(signupForm.value)">
+        <div class="elementContainer">
+        <label for="username">Name  </label>
+        <input type="text" ngModel id="username" name="name"/>
+    </div>
+    <div class="elementContainer">
+        <label for="email">Email  </label>
+        <input type="email" ngModel id="email" name="email"/>
+    </div>
+    <div class="elementContainer">
+        <label for="password">Password  </label>
+        <input type="password" ngModel id="password" name="password"/>
+    </div>
+    <div class="elementContainer">
+        <label for="confirmPassword">Confirm Password  </label>
+        <input type="password" ngModel id="confirmPassword" name="confirmPassword"/>
+    </div>
+    <button type="submit">Sign Up</button>
+    </form> 
+</section>
+</div>
