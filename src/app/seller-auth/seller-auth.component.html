@@ -1,7 +1,7 @@
 <div class="seller-wrapper">
 <section class="signupWrapper">
     <h1>Sign Up Now!</h1>
-    <form #signupForm="ngForm" (ngSubmit)="signUp(signupForm.value)">
+    <form #signupForm="ngForm" (ngSubmit)="signUp(signupForm.value,signupForm)">
         <div class="elementContainer">
         <label for="username">Name  </label>
         <input type="text" ngModel id="username" name="name"/>
